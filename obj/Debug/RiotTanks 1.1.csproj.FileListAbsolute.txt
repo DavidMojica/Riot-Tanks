@@ -1,0 +1,32 @@
+C:\Users\swan5\source\repos\RiotTanks 1.1\bin\Debug\RiotTanks 1.1.exe.config
+C:\Users\swan5\source\repos\RiotTanks 1.1\bin\Debug\RiotTanks 1.1.exe
+C:\Users\swan5\source\repos\RiotTanks 1.1\bin\Debug\RiotTanks 1.1.pdb
+C:\Users\swan5\source\repos\RiotTanks 1.1\obj\Debug\RiotTanks 1.1.csproj.AssemblyReference.cache
+C:\Users\swan5\source\repos\RiotTanks 1.1\obj\Debug\RiotTanks 1.1.csproj.SuggestedBindingRedirects.cache
+C:\Users\swan5\source\repos\RiotTanks 1.1\obj\Debug\RiotTanks_1._1.Form1.resources
+C:\Users\swan5\source\repos\RiotTanks 1.1\obj\Debug\RiotTanks_1._1.Properties.Resources.resources
+C:\Users\swan5\source\repos\RiotTanks 1.1\obj\Debug\RiotTanks 1.1.csproj.GenerateResource.cache
+C:\Users\swan5\source\repos\RiotTanks 1.1\obj\Debug\RiotTanks 1.1.csproj.CoreCompileInputs.cache
+C:\Users\swan5\source\repos\RiotTanks 1.1\obj\Debug\RiotTanks 1.1.exe
+C:\Users\swan5\source\repos\RiotTanks 1.1\obj\Debug\RiotTanks 1.1.pdb
+E:\Sv3\RiotTanks 1.1\bin\Debug\RiotTanks 1.1.exe.config
+E:\Sv3\RiotTanks 1.1\bin\Debug\RiotTanks 1.1.exe
+E:\Sv3\RiotTanks 1.1\bin\Debug\RiotTanks 1.1.pdb
+E:\Sv3\RiotTanks 1.1\obj\Debug\RiotTanks 1.1.csproj.AssemblyReference.cache
+E:\Sv3\RiotTanks 1.1\obj\Debug\RiotTanks_1._1.Form1.resources
+E:\Sv3\RiotTanks 1.1\obj\Debug\RiotTanks_1._1.Properties.Resources.resources
+E:\Sv3\RiotTanks 1.1\obj\Debug\RiotTanks 1.1.csproj.GenerateResource.cache
+E:\Sv3\RiotTanks 1.1\obj\Debug\RiotTanks 1.1.csproj.CoreCompileInputs.cache
+E:\Sv3\RiotTanks 1.1\obj\Debug\RiotTanks 1.1.exe
+E:\Sv3\RiotTanks 1.1\obj\Debug\RiotTanks 1.1.pdb
+D:\Sv3\RiotTanks 1.1\bin\Debug\RiotTanks 1.1.exe.config
+D:\Sv3\RiotTanks 1.1\bin\Debug\RiotTanks 1.1.exe
+D:\Sv3\RiotTanks 1.1\bin\Debug\RiotTanks 1.1.pdb
+D:\Sv3\RiotTanks 1.1\obj\Debug\RiotTanks 1.1.csproj.AssemblyReference.cache
+D:\Sv3\RiotTanks 1.1\obj\Debug\RiotTanks_1._1.Form1.resources
+D:\Sv3\RiotTanks 1.1\obj\Debug\RiotTanks_1._1.Properties.Resources.resources
+D:\Sv3\RiotTanks 1.1\obj\Debug\RiotTanks 1.1.csproj.GenerateResource.cache
+D:\Sv3\RiotTanks 1.1\obj\Debug\RiotTanks 1.1.csproj.CoreCompileInputs.cache
+D:\Sv3\RiotTanks 1.1\obj\Debug\RiotTanks 1.1.exe
+D:\Sv3\RiotTanks 1.1\obj\Debug\RiotTanks 1.1.pdb
+E:\Sv3\RiotTanks 1.1\obj\Debug\RiotTanks 1.1.csproj.SuggestedBindingRedirects.cache

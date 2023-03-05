@@ -1,0 +1,1075 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="armored_impact" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SFX\armored_impact.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Battle_City_SFX__11_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SFX\Battle City SFX (11).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Battle_City_SFX__12_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SFX\Battle City SFX (12).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Battle_City_SFX__13_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SFX\Battle City SFX (13).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Battle_City_SFX__15_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SFX\Battle City SFX (15).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Battle_City_SFX__16_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SFX\Battle City SFX (16).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Battle_City_SFX__17_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SFX\Battle City SFX (17).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Battle_City_SFX__8_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SFX\Battle City SFX (8).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Battle_City_SFX__9_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SFX\Battle City SFX (9).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="boom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boom.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boom2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boom2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boom3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boom3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boom4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boom4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boom5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boom5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bullet_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bullet_down.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bullet_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bullet_left.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bullet_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bullet_right.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bullet_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bullet_up.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coordenadas_brick_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coordenadas_brick.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="coordenadas_brick_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coordenadas_brick_lvl2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="coordenadas_brick_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coordenadas_brick_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="coordenadas_bush_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coordenadas_bush_lvl1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="coordenadas_bush_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coordenadas_bush_lvl2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="coordenadas_bush_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coordenadas_bush_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="coordenadas_frost_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coordenadas_frost_lvl1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="coordenadas_frost_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coordenadas_frost_lvl2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="coordenadas_frost_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coordenadas_frost_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="coordenadas_steel_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coordenadas_steel.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="coordenadas_steel_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coordenadas_steel_lvl2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="coordenadas_steel_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coordenadas_steel_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="coordenadas_water_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coordenadas_water_lvl1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="coordenadas_water_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coordenadas_water_lvl2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="coordenadas_water_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coordenadas_water_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="env_brick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\env_brick.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="env_brick_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\env_brick3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="env_bush" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\env_bush.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="env_flag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\env_flag.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="env_flag_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\env_flag2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="env_frost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\env_frost.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="env_steel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\env_steel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="env_water" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\env_water.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="env_water_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\env_water2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="env_water_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\env_water3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frost_impact" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SFX\frost_impact.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hit_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hit1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hit_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hit2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hit_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hit3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hit_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hit4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="impact" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SFX\impact.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="level_done" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SFX\level_done.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="player_respawn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SFX\player_respawn.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="player_shot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SFX\player_shot.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="power_grenade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\power_grenade.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="power_gun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\power_gun.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="power_helmet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\power_helmet.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="power_showel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\power_showel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="power_star" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\power_star.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="power_tank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\power_tank.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="power_time" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\power_time.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SFX\shot.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tank_armored_green_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_green_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_green_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_green_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_green_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_green_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_green_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_green_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_green_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_green_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_green_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_green_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_green_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_green_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_green_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_green_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_red_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_red_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_red_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_red_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_red_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_red_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_red_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_red_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_red_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_red_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_red_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_red_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_red_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_red_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_red_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_red_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_white_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_white_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_white_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_white_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_white_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_white_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_white_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_white_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_white_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_white_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_white_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_white_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_white_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_white_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_white_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_white_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_yellow_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_yellow_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_yellow_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_yellow_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_yellow_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_yellow_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_yellow_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_yellow_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_yellow_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_yellow_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_yellow_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_yellow_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_yellow_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_yellow_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_armored_yellow_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_armored_yellow_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_green_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_green_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_green_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_green_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_green_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_green_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_green_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_green_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_green_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_green_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_green_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_green_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_green_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_green_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_green_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_green_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_red_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_red_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_red_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_red_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_red_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_red_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_red_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_red_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_red_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_red_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_red_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_red_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_red_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_red_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_red_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_red_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_white_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_white_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_white_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_white_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_white_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_white_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_white_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_white_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_white_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_white_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_white_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_white_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_white_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_white_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_white_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_white_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_yellow_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_yellow_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_yellow_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_yellow_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_yellow_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_yellow_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_yellow_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_yellow_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_yellow_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_yellow_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_yellow_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_yellow_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_yellow_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_yellow_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_basic_yellow_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_basic_yellow_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_destruction" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SFX\tank_destruction.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tank_energy_green_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_green_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_green_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_green_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_green_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_green_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_green_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_green_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_green_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_green_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_green_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_green_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_green_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_green_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_green_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_green_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_red_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_red_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_red_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_red_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_red_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_red_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_red_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_red_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_red_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_red_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_red_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_red_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_red_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_red_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_red_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_red_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_white_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_white_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_white_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_white_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_white_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_white_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_white_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_white_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_white_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_white_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_white_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_white_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_white_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_white_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_white_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_white_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_yellow_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_yellow_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_yellow_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_yellow_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_yellow_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_yellow_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_yellow_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_yellow_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_yellow_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_yellow_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_yellow_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_yellow_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_yellow_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_yellow_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_energy_yellow_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_energy_yellow_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_green_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_green_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_green_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_green_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_green_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_green_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_green_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_green_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_green_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_green_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_green_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_green_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_green_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_green_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_green_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_green_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_red_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_red_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_red_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_red_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_red_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_red_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_red_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_red_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_red_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_red_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_red_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_red_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_red_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_red_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_red_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_red_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_white_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_white_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_white_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_white_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_white_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_white_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_white_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_white_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_white_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_white_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_white_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_white_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_white_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_white_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_white_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_white_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_yellow_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_yellow_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_yellow_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_yellow_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_yellow_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_yellow_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_yellow_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_yellow_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_yellow_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_yellow_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_yellow_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_yellow_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_yellow_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_yellow_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_fast_yellow_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_fast_yellow_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_impact" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SFX\tank_impact.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tank_normal2_green_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_green_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_green_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_green_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_green_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_green_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_green_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_green_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_green_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_green_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_green_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_green_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_green_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_green_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_green_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_green_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_red_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_red_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_red_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_red_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_red_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_red_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_red_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_red_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_red_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_red_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_red_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_red_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_red_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_red_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_red_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_red_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_white_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_white_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_white_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_white_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_white_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_white_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_white_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_white_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_white_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_white_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_white_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_white_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_white_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_white_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_white_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_white_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_yellow_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_yellow_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_yellow_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_yellow_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_yellow_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_yellow_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_yellow_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_yellow_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_yellow_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_yellow_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_yellow_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_yellow_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_yellow_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_yellow_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal2_yellow_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal2_yellow_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_green_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_green_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_green_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_green_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_green_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_green_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_green_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_green_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_green_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_green_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_green_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_green_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_green_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_green_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_green_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_green_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_red_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_red_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_red_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_red_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_red_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_red_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_red_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_red_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_red_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_red_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_red_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_red_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_red_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_red_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_red_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_red_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_white_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_white_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_white_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_white_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_white_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_white_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_white_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_white_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_white_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_white_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_white_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_white_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_white_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_white_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_white_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_white_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_yellow_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_yellow_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_yellow_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_yellow_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_yellow_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_yellow_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_yellow_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_yellow_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_yellow_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_yellow_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_yellow_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_yellow_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_yellow_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_yellow_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal3_yellow_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal3_yellow_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_green_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_green_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_green_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_green_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_green_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_green_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_green_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_green_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_green_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_green_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_green_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_green_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_green_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_green_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_green_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_green_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_red_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_red_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_red_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_red_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_red_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_red_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_red_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_red_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_red_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_red_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_red_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_red_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_red_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_red_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_red_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_red_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_white_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_white_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_white_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_white_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_white_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_white_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_white_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_white_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_white_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_white_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_white_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_white_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_white_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_white_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_white_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_white_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_yellow_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_yellow_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_yellow_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_yellow_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_yellow_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_yellow_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_yellow_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_yellow_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_yellow_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_yellow_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_yellow_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_yellow_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_yellow_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_yellow_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal4_yellow_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal4_yellow_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_green_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_green_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_green_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_green_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_green_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_green_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_green_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_green_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_green_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_green_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_green_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_green_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_green_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_green_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_green_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_green_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_red_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_red_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_red_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_red_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_red_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_red_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_red_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_red_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_red_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_red_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_red_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_red_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_red_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_red_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_red_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_red_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_white_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_white_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_white_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_white_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_white_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_white_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_white_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_white_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_white_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_white_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_white_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_white_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_white_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_white_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_white_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_white_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_yellow_down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_yellow_down_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_yellow_down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_yellow_down_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_yellow_left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_yellow_left_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_yellow_left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_yellow_left_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_yellow_right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_yellow_right_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_yellow_right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_yellow_right_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_yellow_up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_yellow_up_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_normal_yellow_up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_normal_yellow_up_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

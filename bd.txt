@@ -1,0 +1,10 @@
+create database db_jugadores
+use db_jugadores
+
+create table puntuaciones(
+nombre varchar(20) not null,
+puntuacion int not null
+)
+select * from puntuaciones order by puntuacion desc
+select * from puntuaciones
+delete from puntuaciones where nombre =''
