@@ -1,9 +1,5 @@
 ﻿/*                         --------------------Bloque de Informacion-----------------------
                                             Autor: David Mojica V. 
-                                            CC: 1000090024. 
-                                            Wsp de contacto: +57 319775000.  
-                                            Num Cel de contacto: +57 3054356930.
-
                             --------------------Riot Tanks: Hit & Run----------------------
 #INSTRUCCIONES:
 Moverse con WASD, disparar con 'J'. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<---------------------------------
